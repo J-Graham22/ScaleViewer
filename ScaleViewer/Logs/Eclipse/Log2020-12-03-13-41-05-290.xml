@@ -1,0 +1,109 @@
+<Events startTimestamp="1607020865290" logVersion="1.0.0.202010301544">
+  <Command __id="7" _type="ShellCommand" date="Thu Dec 03 13:44:16 EST 2020" starttimestamp="1607020865290" timestamp="191090" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="8" _type="ShellCommand" date="Thu Dec 03 13:44:23 EST 2020" starttimestamp="1607020865290" timestamp="198159" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="9" _type="DiffBasedFileOpenCommand" date="Thu Dec 03 13:44:23 EST 2020" docASTNodeCount="48" docActiveCodeLength="288" docExpressionCount="23" docLength="389" projectName="ScaleViewer" starttimestamp="1607020865290" timestamp="198245">
+    <filePath><![CDATA[C:\Users\Justin\eclipse-workspace\ScaleViewer\src\src\ScaleDisplayMVC.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package src;
+
+public class ScaleDisplayMVC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ScaleView view = new ScaleView();
+		ScaleModel model = new ScaleModel();
+		
+		ScaleController controller = new ScaleController(view, model);
+		
+		view.setVisible(true);
+	}
+
+}
+http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1336]]></snapshot>
+  </Command>
+  <Command __id="10" _type="MoveCaretCommand" caretOffset="389" date="Thu Dec 03 13:44:23 EST 2020" docOffset="389" starttimestamp="1607020865290" timestamp="198466" />
+  <Command __id="12" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:25 EST 2020" starttimestamp="1607020865290" timestamp="200475" />
+  <Command __id="14" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="200974" />
+  <Command __id="16" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201004" />
+  <Command __id="18" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201036" />
+  <Command __id="20" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201080" />
+  <Command __id="22" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201112" />
+  <Command __id="24" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201145" />
+  <Command __id="26" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201177" />
+  <Command __id="28" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201207" />
+  <Command __id="30" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201240" />
+  <Command __id="32" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201269" />
+  <Command __id="34" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201301" />
+  <Command __id="36" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201332" />
+  <Command __id="38" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201363" />
+  <Command __id="40" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201397" />
+  <Command __id="42" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201444" />
+  <Command __id="44" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201476" />
+  <Command __id="46" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201504" />
+  <Command __id="48" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201537" />
+  <Command __id="50" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201568" />
+  <Command __id="52" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201599" />
+  <Command __id="54" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201632" />
+  <Command __id="56" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201663" />
+  <Command __id="58" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:26 EST 2020" starttimestamp="1607020865290" timestamp="201695" />
+  <Command __id="60" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201726" />
+  <Command __id="62" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201771" />
+  <Command __id="64" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201803" />
+  <Command __id="66" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201834" />
+  <Command __id="68" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201866" />
+  <Command __id="70" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201898" />
+  <Command __id="72" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201928" />
+  <Command __id="74" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201961" />
+  <Command __id="76" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="201993" />
+  <Command __id="78" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202025" />
+  <Command __id="80" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202057" />
+  <Command __id="82" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202087" />
+  <Command __id="84" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202136" />
+  <Command __id="86" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202166" />
+  <Command __id="88" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202197" />
+  <Command __id="90" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202227" />
+  <Command __id="92" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202259" />
+  <Command __id="94" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202289" />
+  <Command __id="96" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202321" />
+  <Command __id="98" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202352" />
+  <Command __id="100" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202399" />
+  <Command __id="102" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202431" />
+  <Command __id="104" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202463" />
+  <Command __id="106" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202494" />
+  <Command __id="108" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202525" />
+  <Command __id="110" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202556" />
+  <Command __id="112" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202587" />
+  <Command __id="114" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202619" />
+  <Command __id="116" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202650" />
+  <Command __id="118" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:27 EST 2020" starttimestamp="1607020865290" timestamp="202683" />
+  <Command __id="120" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202729" />
+  <Command __id="122" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202758" />
+  <Command __id="124" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202790" />
+  <Command __id="126" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202821" />
+  <Command __id="128" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202855" />
+  <Command __id="130" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202885" />
+  <Command __id="132" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202917" />
+  <Command __id="134" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202949" />
+  <Command __id="136" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="202980" />
+  <Command __id="138" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="203011" />
+  <Command __id="140" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="203188" />
+  <Command __id="142" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="203336" />
+  <Command __id="144" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:28 EST 2020" starttimestamp="1607020865290" timestamp="203577" />
+  <Command __id="146" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:29 EST 2020" starttimestamp="1607020865290" timestamp="203717" />
+  <Command __id="148" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:29 EST 2020" starttimestamp="1607020865290" timestamp="203832" />
+  <Command __id="150" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:29 EST 2020" starttimestamp="1607020865290" timestamp="203953" />
+  <Command __id="152" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:29 EST 2020" starttimestamp="1607020865290" timestamp="204217" />
+  <Command __id="154" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:29 EST 2020" starttimestamp="1607020865290" timestamp="204547" />
+  <Command __id="156" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Dec 03 13:44:30 EST 2020" starttimestamp="1607020865290" timestamp="204935" />
+  <Command __id="157" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Dec 03 13:44:33 EST 2020" starttimestamp="1607020865290" timestamp="207946" />
+  <Command __id="158" _type="EclipseCommand" commandID="" date="Thu Dec 03 13:44:33 EST 2020" starttimestamp="1607020865290" timestamp="208030" />
+  <Command __id="159" _type="EclipseCommand" commandID="" date="Thu Dec 03 13:44:33 EST 2020" starttimestamp="1607020865290" timestamp="208103" />
+  <Command __id="160" _type="ShellCommand" date="Thu Dec 03 13:44:36 EST 2020" starttimestamp="1607020865290" timestamp="210787" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="161" _type="ShellCommand" date="Thu Dec 03 13:45:39 EST 2020" starttimestamp="1607020865290" timestamp="274040" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="162" _type="ShellCommand" date="Thu Dec 03 13:45:43 EST 2020" starttimestamp="1607020865290" timestamp="277759" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="163" _type="ShellCommand" date="Thu Dec 03 13:45:50 EST 2020" starttimestamp="1607020865290" timestamp="284975" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="164" _type="ShellCommand" date="Thu Dec 03 13:45:58 EST 2020" starttimestamp="1607020865290" timestamp="293426" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="172" _type="ShellCommand" date="Thu Dec 03 13:49:25 EST 2020" starttimestamp="1607020865290" timestamp="500636" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="173" _type="ShellCommand" date="Thu Dec 03 13:50:01 EST 2020" starttimestamp="1607020865290" timestamp="535913" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="174" _type="ShellCommand" date="Thu Dec 03 13:50:13 EST 2020" starttimestamp="1607020865290" timestamp="548543" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="175" _type="ShellCommand" date="Thu Dec 03 13:50:17 EST 2020" starttimestamp="1607020865290" timestamp="552663" type="ECLIPSE_GAINED_FOCUS" />
